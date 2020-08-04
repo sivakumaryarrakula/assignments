@@ -1,0 +1,108 @@
+##sonarqube:
+  It is a code quality management platform.
+It's aweb based applications that keeps historical
+Veriety of metrics.
+
+Sonar is an open source platforms used by development
+teams to manage sources.
+The community to extend the functionality, making
+Sonar the one stop shop for source.
+
+##sonarlint:
+    It is a free IDE extension open source and
+available in the visualisation before they even exist.
+
+
+Like a spectacular checker, Sonallint high lights bugs.
+
+##Arrays in JAVA:
+
+An array is a container object that holds a fixed 
+number of values of a single type. 
+
+The length of an array is established when the array 
+is created. 
+
+After creation, its length is fixed. You have seen an 
+example of arrays already, in the main method of the
+ "Hello World!" application.
+
+
+##Jva program for a static variable:
+
+Java Program to demonstrate the use of static variable  
+class Student{  
+   int rollno;//instance variable  
+   String name;  
+   static String college ="ITS";//static variable  
+   //constructor  
+   Student(int r, String n){  
+   rollno = r;  
+   name = n;  
+   }  
+   //method to display the values  
+   void display (){System.out.println(rollno+" "+name+" "+college);}  
+}  
+//Test class to show the values of objects  
+public class TestStaticVariable1{  
+ public static void main(String args[]){  
+ Student s1 = new Student(111,"Karan");  
+ Student s2 = new Student(222,"Aryan");  
+ //we can change the college of all objects by the single line of code  
+ //Student.college="BBDIT";  
+ s1.display();  
+ s2.display();  
+ }  
+}  
+
+##Jva program instance variables:
+
+public class Student {
+
+ public int studentId;
+
+ public String name;
+
+ public int age;
+
+ // here we have created three instance variable. All these can be accesible
+
+ // in all methods of this class.
+
+ public int getStudentId() {
+
+  return studentId;
+
+ }
+
+ public void setStudentId(int studentId) {
+
+  this.studentId = studentId;
+
+ }
+
+ public String getName() {
+
+  return name;
+
+ }
+
+ public void setName(String name) {
+
+  this.name = name;
+
+ }
+
+ public int getAge() {
+
+  return age;
+
+ }
+
+ public void setAge(int age) {
+
+  this.age = age;
+
+ }
+
+}
